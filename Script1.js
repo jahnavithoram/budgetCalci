@@ -81,9 +81,9 @@ function res() {
     document.getElementById("t2").innerHTML = v2;
     var v3 = parseInt(localStorage.getItem("value3"));
     document.getElementById("t3").innerHTML = v3;
-    var v4 = parseInt(localStorage.getItem("value4"));
-    document.getElementById("t4").innerHTML = v4;
-    document.getElementById("t5").innerHTML = v1+v2+v3+v4;
+    var v= parseInt(localStorage.getItem("value4"));
+    document.getElementById("t4").innerHTML = v;
+    document.getElementById("t5").innerHTML = v1+v2+v3+v;
 }
 
 
