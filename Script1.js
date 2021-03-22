@@ -36,9 +36,9 @@ function CountDB() {
 }
 function CountWS() {
     //  alert("Booking Confirm!");
-    var mdb = document.getElementById("Check1");
-    var sql = document.getElementById("Check2");
-    var dev = document.getElementById("Check3");
+    var mdb = document.getElementById("Check11");
+    var sql = document.getElementById("Check22");
+    var dev = document.getElementById("Check33");
     if (mdb.checked == true)
         sum2 = sum2 + 1699;
     if (sql.checked == true)
@@ -50,14 +50,14 @@ function CountWS() {
 }
 function CountBE() {
     //  alert("Booking Confirm!");
-    var mdb = document.getElementById("Check1");
-    var sql = document.getElementById("Check2");
-    var dev = document.getElementById("Check3");
-    if (mdb.checked == true)
+    var m = document.getElementById("Check01");
+    var s = document.getElementById("Check02");
+    var d = document.getElementById("Check03");
+    if (m.checked == true)
         sum3 = sum3 + 1999;
-    if (sql.checked == true)
+    if (s.checked == true)
         sum3 = sum3 + 2499;
-    if (dev.checked == true)
+    if (d.checked == true)
         sum3 = sum3 + 1799;
     sum = sum + sum3;
     closeForm3();
